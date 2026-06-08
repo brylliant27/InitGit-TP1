@@ -3,7 +3,7 @@ from pymupdf import message
 init()
 
 def display():
-    message = f"{Fore.GREEN}Bonjour les {Fore.CYAN}FI1{Style.RESET_ALL}"
+    message = f"{Fore.GREEN}Ceci est une {Fore.CYAN}modification{Style.RESET_ALL}"
     print(message)
 
 
